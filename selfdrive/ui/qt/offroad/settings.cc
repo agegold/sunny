@@ -44,7 +44,7 @@ TogglesPanel::TogglesPanel(SettingsWindow *parent) : ListWidget(parent) {
     },
     {
       "IsRHD",
-      "Enable Right-Hand Drive",
+      "우핸들 차량",
       "Allow openpilot to obey left-hand traffic conventions and perform driver monitoring on right driver seat.",
       "../assets/offroad/icon_openpilot_mirrored.png",
     },

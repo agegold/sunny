@@ -50,7 +50,7 @@ TogglesPanel::TogglesPanel(SettingsWindow *parent) : ListWidget(parent) {
     },
     {
       "IsMetric",
-      "Use Metric System",
+      "미터법 사용",
       "Display speed in km/h instead of mph.",
       "../assets/offroad/icon_metric.png",
     },

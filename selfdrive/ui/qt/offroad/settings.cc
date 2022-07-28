@@ -181,6 +181,20 @@ DevicePanel::DevicePanel(SettingsWindow *parent) : ListWidget(parent) {
     #poweroff_btn:pressed { background-color: #FF2424; }
   )");
   addItem(power_layout);
+  
+    QPushButton *gitpull_btn = new QPushButton("소프트웨어 업데이트");
+  poweroff_btn->setObjectName("gitpull_btn");
+  power_layout->addWidget(gitpull_btn);
+
+  const char* gitpull = "sh /data/openpilot/gitpull.sh";
+  QObject::connect(gitpull_btn, &QPushButton::clicked, [=]() {
+    std::system(gitpull);
+    if (ConfirmationDialog::confirm("업데이트가 완료 되었습니다. 재부팅 하시겠습니까?", this)) {
+      QTimer::singleShot(1000, []() { 
+       Hardware::reboot(); });
+    }
+  });
+
 }
 
 void DevicePanel::updateCalibDescription() {

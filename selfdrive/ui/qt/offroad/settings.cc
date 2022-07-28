@@ -32,7 +32,7 @@ TogglesPanel::TogglesPanel(SettingsWindow *parent) : ListWidget(parent) {
   std::vector<std::tuple<QString, QString, QString, QString>> toggles{
     {
       "OpenpilotEnabledToggle",
-      "Enable openpilot",
+      "오픈파일럿 사용",
       "Use the openpilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature. Changing this setting takes effect when the car is powered off.",
       "../assets/offroad/icon_openpilot.png",
     },

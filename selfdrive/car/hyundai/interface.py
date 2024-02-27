@@ -213,7 +213,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.pid.kf = 0.00005
       ret.lateralTuning.pid.kiBP, ret.lateralTuning.pid.kpBP = [[0.], [0.]]
       ret.lateralTuning.pid.kpV, ret.lateralTuning.pid.kiV = [[0.25], [0.05]]
-    elif candidate == in [CAR.KIA_K5_2021, CAR.KIA_K5_2021_NON_SCC] :
+    elif candidate in [CAR.KIA_K5_2021, CAR.KIA_K5_2021_NON_SCC] :
       ret.lateralTuning.pid.kf = 0.00005
       ret.mass = 3228. * CV.LB_TO_KG
       ret.wheelbase = 2.85

@@ -168,7 +168,7 @@ FINGERPRINTS = {
   }],
   CAR.K7_2020_NON_SCC: [{
   }], 
-  CAR.CAR.K5_2021_NON_SCC: [{
+  CAR.K5_2021_NON_SCC: [{
   }],  
 }
 

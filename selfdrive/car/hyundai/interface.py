@@ -213,7 +213,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.pid.kf = 0.00005
       ret.lateralTuning.pid.kiBP, ret.lateralTuning.pid.kpBP = [[0.], [0.]]
       ret.lateralTuning.pid.kpV, ret.lateralTuning.pid.kiV = [[0.25], [0.05]]
-    elif candidate == CAR.KIA_K5_2021:
+    elif candidate == in [CAR.KIA_K5_2021, CAR.KIA_K5_2021_NON_SCC] :
       ret.lateralTuning.pid.kf = 0.00005
       ret.mass = 3228. * CV.LB_TO_KG
       ret.wheelbase = 2.85
@@ -229,6 +229,12 @@ class CarInterface(CarInterfaceBase):
       tire_stiffness_factor = 0.5
       ret.lateralTuning.pid.kiBP, ret.lateralTuning.pid.kpBP = [[0.], [0.]]
       ret.lateralTuning.pid.kpV, ret.lateralTuning.pid.kiV = [[0.25], [0.05]]
+    elif candidate == CAR.K7_2020_NON_SCC:
+      tire_stiffness_factor = 0.7
+      ret.mass = 1650. + STD_CARGO_KG
+      ret.wheelbase = 2.855
+      ret.centerToFront = ret.wheelbase * 0.4
+      ret.steerRatio = 17.25
 
     # Genesis
     elif candidate == CAR.GENESIS_G70:

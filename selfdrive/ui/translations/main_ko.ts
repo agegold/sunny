@@ -119,7 +119,7 @@
     </message>
 </context>
 <context>
-    <name>AutoLaneChangeTimer</name>
+    <name>자동차선 변경 지연시간</name>
     <message>
         <source>Auto Lane Change Timer</source>
         <translation type="unfinished"></translation>

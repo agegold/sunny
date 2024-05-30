@@ -146,7 +146,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
     <name>BrightnessControl</name>
     <message>
         <source>Brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>밝기 조절</translation>
     </message>
     <message>
         <source>Manually adjusts the global brightness of the screen.</source>

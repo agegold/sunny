@@ -119,10 +119,10 @@
     </message>
 </context>
 <context>
-    <name>자동차선 변경 지연시간</name>
+    <name>AutoLaneChangeTimer</name>
     <message>
         <source>Auto Lane Change Timer</source>
-        <translation type="unfinished"></translation>
+        <translation>자동차선변경 지연시간</translation>
     </message>
     <message>
         <source>Set a timer to delay the auto lane change operation when the blinker is used. No nudge on the steering wheel is required to auto lane change if a timer is set.

@@ -134,7 +134,7 @@
     </message>
     <message>
         <source>Nudgeless</source>
-        <translation type="unfinished"></translation>
+        <translation>핸들조작없이 자동차선 변경</translation>
     </message>
     <message>
         <source>Auto Lane Change by Blinker</source>

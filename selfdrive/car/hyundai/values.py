@@ -594,7 +594,12 @@ class CAR(Platforms):
     flags=HyundaiFlags.CHECKSUM_CRC8,
     spFlags=HyundaiFlagsSP.SP_NON_SCC | HyundaiFlagsSP.SP_NON_SCC_FCA | HyundaiFlagsSP.SP_NON_SCC_RADAR_FCA,
   )
-
+  KIA_BONGO_EV_2023_NON_SCC = HyundaiPlatformConfig(
+    [HyundaiCarDocs("Kia Bongo Non-SCC 2023-24", "No Smart Cruise Control (SCC)", car_parts=CarParts.common([CarHarness.hyundai_l]))],
+    CarSpecs(mass=3228, wheelbase=2.85, steerRatio=16.5),
+    flags=HyundaiFlags.EV,
+    spFlags=HyundaiFlagsSP.SP_NON_SCC | HyundaiFlagsSP.SP_NON_SCC_FCA,
+  )
 
 class Buttons:
   NONE = 0

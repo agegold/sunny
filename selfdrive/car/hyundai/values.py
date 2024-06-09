@@ -591,8 +591,8 @@ class CAR(Platforms):
   GENESIS_G70_2021_NON_SCC = HyundaiPlatformConfig(
     [HyundaiCarDocs("Genesis G70 Non-SCC 2021", "No Smart Cruise Control (SCC)", car_parts=CarParts.common([CarHarness.hyundai_f]))],
     GENESIS_G70_2020.specs,
-    flags=HyundaiFlags.CHECKSUM_CRC8,
-    spFlags=HyundaiFlagsSP.SP_NON_SCC | HyundaiFlagsSP.SP_NON_SCC_FCA | HyundaiFlagsSP.SP_NON_SCC_RADAR_FCA,
+    flags=HyundaiFlags.EV,
+    spFlags=HyundaiFlagsSP.SP_NON_SCC | HyundaiFlagsSP.SP_NON_SCC_FCA,
   )
   KIA_BONGO_EV_2023_NON_SCC = HyundaiPlatformConfig(
     [HyundaiCarDocs("Kia Bongo Non-SCC 2023-24", "No Smart Cruise Control (SCC)", car_parts=CarParts.common([CarHarness.hyundai_l]))],

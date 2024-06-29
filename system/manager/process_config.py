@@ -1,4 +1,4 @@
-import os
+entsimport os
 
 from cereal import car
 from openpilot.common.params import Params

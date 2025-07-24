@@ -625,7 +625,7 @@ EVENTS: dict[int, dict[str, Alert | AlertCallbackType]] = {
   },
 
   EventName.doorOpen: {
-    ET.SOFT_DISABLE: user_soft_disable_alert("도어 열림""),
+    ET.SOFT_DISABLE: user_soft_disable_alert("도어 열림"),
     ET.NO_ENTRY: NoEntryAlert("도어 열림""),
   },
 

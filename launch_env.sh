@@ -20,4 +20,4 @@ if [ -z "$AGNOS_VERSION" ]; then
 fi
 
 export STAGING_ROOT="/data/safe_staging"
-export FINGERPRINT="GENESIS_GV70_1ST_GEN"
+export FINGERPRINT="KIA_CARNIVAL_4TH_GEN"

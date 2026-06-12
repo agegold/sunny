@@ -20,4 +20,4 @@ if [ -z "$AGNOS_VERSION" ]; then
 fi
 
 export STAGING_ROOT="/data/safe_staging"
-export FINGERPRINT="HYUNDAI_SANTA_FE_2022"
+export FINGERPRINT="GENESIS_GV80"
